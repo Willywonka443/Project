@@ -14,7 +14,8 @@ public class PrintToConsole : MonoBehaviour
     void Update()
     {
         transform.Rotate(0,0,0.001f);
-        transform.Translate(0,0.001f,0);
+        transform.Translate(0,0.002f,0);
         transform.Translate(0.001f,0,0);
+
     }
 }
